@@ -1,0 +1,24 @@
+<ion-view view-title="Einstellungen">
+  <ion-content>
+    <ion-list>
+    <ion-toggle  ng-model="started" ng-change="switchStarted()">
+        Tracking einschalten
+    </ion-toggle>
+    <ion-toggle  ng-model="randomOffest" ng-change="switchRandomOffset()">
+        Setze zufälligen Offset
+    </ion-toggle>
+    <li class="item">
+        <label class="input-label"> Zeitintervall :  Zwischen 1.000ms(1s) und 10.000ms(10s)
+          <div class="range range-assertive" >
+            <i class="icon ion-ios7-sunny-outline"></i>
+            <input id="delayinput" type="range" name="delay" min="1000" max="10000" step="500" ng-model="delay" ng-change="changeDelay(delay)">
+            {{delay}}
+            /10000ms
+            <i class="icon ion-ios7-sunny"></i>
+          </div>
+
+        </label>
+      </li>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Titel>Deceiver of the Gods</Titel>
+    <Interpret>Amon Amarth</Interpret>
+    <Album>Deceiver of the Gods</Album>
+    <Jahr>2013</Jahr>
+    <Genre>Melodic Death Metal</Genre>
+  </row>
+  <row>
+    <Titel>Schrei nach Liebe</Titel>
+    <Interpret> Die Ärzte</Interpret>
+    <Album> Bäst Of</Album>
+    <Jahr>2006</Jahr>
+    <Genre>Punk Rock</Genre>
+  </row>
+  <row>
+    <Titel>Paralyzed</Titel>
+    <Interpret>Caliban</Interpret>
+    <Album>Gravity</Album>
+    <Jahr>2016</Jahr>
+    <Genre>Metalcore</Genre>
+  </row>
+  <row>
+    <Titel>Hells Bells</Titel>
+    <Interpret>AC/DC</Interpret>
+    <Album>Back in Black</Album>
+    <Jahr>1980</Jahr>
+    <Genre>Hard Rock</Genre>
+  </row>
+  <row>
+    <Titel>Affengeld</Titel>
+    <Interpret>KMPFSPRT</Interpret>
+    <Album>Das ist doch kein Name für &apos;ne Band</Album>
+    <Jahr>2012</Jahr>
+    <Genre>Punk</Genre>
+  </row>
+  <row>
+    <Titel>Du hast</Titel>
+    <Interpret>Rammstein</Interpret>
+    <Album>Sehnsucht</Album>
+    <Jahr>1997</Jahr>
+    <Genre>Metal</Genre>
+  </row>
+  <row>
+    <Titel>Angel of Death</Titel>
+    <Interpret>Slayer</Interpret>
+    <Album>Reign in Blood</Album>
+    <Jahr>2002</Jahr>
+    <Genre>Thrash Metal</Genre>
+  </row>
+  <row>
+    <Titel>They shall not Pass</Titel>
+    <Interpret>Heaven Shall Burn</Interpret>
+    <Album>Wanderer</Album>
+    <Jahr>2016</Jahr>
+    <Genre>Deathcore</Genre>
+  </row>
+  <row>
+    <Titel>Battery</Titel>
+    <Interpret>Metallica</Interpret>
+    <Album>Master Of Puppets</Album>
+    <Jahr>1986</Jahr>
+    <Genre>Thrash Metal</Genre>
+  </row>
+  <row>
+    <Titel>Revolution</Titel>
+    <Interpret>Betontod</Interpret>
+    <Album>Revolution</Album>
+    <Jahr>2017</Jahr>
+    <Genre>Punk</Genre>
+  </row>
+</root>

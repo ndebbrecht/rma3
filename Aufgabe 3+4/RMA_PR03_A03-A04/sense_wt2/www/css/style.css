@@ -1,0 +1,168 @@
+/* Empty. Add your own CSS if you like */
+/*must have*/
+.bar.bar-dark .title{
+    color: #ffc900;
+}
+
+.bar-dark .button.button-clear{
+    color: #ffc900;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+.scroll {
+  height: 100%;
+}
+/**/
+p{
+    font-size: 22px!IMPORTANT;
+    z-index: 30000;
+}
+.info-main{
+    background-color: #F9F9F9; 
+    box-shadow: 1px 1px 1px #CDCDCD;
+    height: 560px;
+    width: 100%;
+}
+.info-box{
+    background-color: #D5D5D5; 
+    box-shadow: 1px 1px 1px #ACACAC;
+    float: left;
+    height: 140px;
+    width: 140px;
+    margin: 5%;
+}
+.info-icon{
+    height: 55%;
+    width: 90%;
+    margin: 5%;
+}
+.info-text{
+    text-align: center;
+    width: 90%;
+    height: 30%;
+    margin: 5%;
+    display: table;
+}
+.info-inner{
+    background-color: #CDCDCD;
+    box-shadow: 1px 1px 1px #ACACAC;
+}
+.data-text-div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+#stickman-div{
+    /*background-color: #ACACAC;*/
+    width: 38%;
+    background-image: url(../img/stickman/stickman0.png);
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.running-stickman{
+    animation-name: stickman;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stickman{
+    0%{
+         -webkit-background-image: url(../img/stickman/stickman1.png);
+        -moz-background-image: url(../img/stickman/stickman1.png);
+        -ms-background-image: url(../img/stickman/stickman1.png);
+        
+    }
+    14.5%{
+         -webkit-background-image: url(../img/stickman/stickman2.png);
+        -moz-background-image: url(../img/stickman/stickman2.png);
+        -ms-background-image: url(../img/stickman/stickman2.png);
+        
+    }
+    29%{
+         -webkit-background-image: url(../img/stickman/stickman3.png);
+        -moz-background-image: url(../img/stickman/stickman3.png);
+        -ms-background-image: url(../img/stickman/stickman3.png);
+    }
+    43.5%{
+         -webkit-background-image: url(../img/stickman/stickman4.png);
+        -moz-background-image: url(../img/stickman/stickman4.png);
+        -ms-background-image: url(../img/stickman/stickman4.png);
+    }
+    58%{
+         -webkit-background-image: url(../img/stickman/stickman5.png);
+        -moz-background-image: url(../img/stickman/stickman5.png);
+        -ms-background-image: url(../img/stickman/stickman5.png);
+    }
+    72.5%{
+         -webkit-background-image: url(../img/stickman/stickman6.png);
+        -moz-background-image: url(../img/stickman/stickman6.png);
+        -ms-background-image: url(../img/stickman/stickman6.png);
+    }
+    87%{
+         -webkit-background-image: url(../img/stickman/stickman7.png);
+        -moz-background-image: url(../img/stickman/stickman7.png);
+        -ms-background-image: url(../img/stickman/stickman7.png);
+    }
+    100%{
+         -webkit-background-image: url(../img/stickman/stickman8.png);
+        -moz-background-image: url(../img/stickman/stickman8.png);
+        -ms-background-image: url(../img/stickman/stickman8.png);
+    }
+    
+    
+}
+.heart-shape{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  box-shadow: 1px 1px 1px #757575;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #EF4C12;
+  margin: auto;
+  z-index: 20;
+  top:20px;
+
+}
+.heart-shape:before,
+.heart-shape:after{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #EF4C12;
+    z-index: 10;
+}
+.heart-shape:before{
+  bottom: 0px;
+  left: -15px;
+}
+.heart-shape:after{
+  top: -15px;
+  right: 0px;
+}
+#heart-shape-wrapper{
+    animation-name: heartbeat;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes heartbeat{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}

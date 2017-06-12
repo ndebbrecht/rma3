@@ -1,0 +1,26 @@
+<ion-view view-title="Neuer Freund">
+  <ion-content>
+    <div class="simple-form" ng-controller="FriendsAddingCtrl">
+        <div class="list">
+          <label class="item item-input">
+            <span class="input-label">Art</span><input type="text" ng-model="yugioh.art">
+          </label>
+            <label class="item item-input">
+               <span class="input-label">Name</span><input type="text" ng-model="yugioh.name">
+            </label>
+             <label class="item item-input">
+            <span class="input-label">Alter</span><input type="text" ng-model="yugioh.alter"></label>
+          <label class="item ">
+              <span class="input-label">Kinderfreundlich</span><input type="checkbox" ng-model="yugioh.kinderfreundlich">
+            </label>
+          <label class="item item-input">
+              <span class="input-label">Charakter</span><input type="text" ng-model="yugioh.charakter">
+            </label>
+
+          <div class="padding">
+            <button class="button button-block button-balanced" type="submit" ng-click="addFriend()">Hinzufügen</button>
+          </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

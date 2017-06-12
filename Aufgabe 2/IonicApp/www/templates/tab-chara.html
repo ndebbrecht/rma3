@@ -1,0 +1,22 @@
+<ion-view view-title="Charaktere">
+ <ion-nav-buttons side="secondary">
+      <a href="#/tab/adding">
+      <button class="button">
+          <i class="ion-plus"></i>
+      </button></a>
+    </ion-nav-buttons>
+    <ion-content ng-controller="CharaCtrl">
+      <ion-list>
+        <ion-item class="item-thumbnail-left item-text-wrap" ng-repeat="item in yugis" href="#/tab/chara/{{item.id}}" can-swipe="listCanSwipe">
+            <img ng-src="images/{{item.name}}.jpg" alt="{{item.name}} Img" id="iconBild">
+            <p><h2>{{item.name}}, {{item.art}}</h2> </p>
+            <h3>{{item.alter}} Jahre</h3>
+
+            <ion-option-button class="ion-edit" ng-click="editFriend(item)" href="#/tab/adding/{{item}}">
+            </ion-option-button>
+            <ion-option-button class="ion-trash-b" ng-click="removeFriend(item)">
+            </ion-option-button>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+</ion-view>

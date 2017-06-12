@@ -1,0 +1,75 @@
+{
+	"yugi":[
+		{
+			"id":"1",
+			"art": "Duellant",
+			"name": "Joey",
+			"alter": "16",
+			"kinderfreundlich":"true",
+			"charakter":"freundlich, verspielt"
+		},{
+			"id":"2",
+			"art": "Duellant",
+			"name": "Kaiba",
+			"alter": "18",
+			"kinderfreundlich":"false",
+			"charakter": "stolz, arrogant"
+		},{
+			"id":"3",
+			"art": "Mädchen",
+			"name": "Tea",
+			"alter": "16",
+			"kinderfreundlich":"true",
+			"charakter":"angenehm, leise"
+		},{
+			"id":"4",
+			"art": "Duellantin",
+			"name": "Mai",
+			"alter": "18",
+			"kinderfreundlich":"true",
+			"charakter": "zickig, lieb"
+		},{
+			"id":"5",
+			"art": "Duellant",
+			"name": "Wheevel",
+			"alter": "10",
+			"kinderfreundlich":"false",
+			"charakter":"hinterhaeltig, gemein"
+		},{
+			"id":"6",
+			"art": "Duellant",
+			"name": "Rex",
+			"alter": "32",
+			"kinderfreundlich":"false",
+			"charakter": "dino, alt"
+		},{
+			"id":"7",
+			"art": "Bruder",
+			"name": "Mokuba",
+			"alter": "12",
+			"kinderfreundlich":"true",
+			"charakter":"freundlich, verspielt"
+		},{
+			"id":"8",
+			"art": "Entwickler",
+			"name": "Pegasus",
+			"alter": "30",
+			"kinderfreundlich":"true",
+			"charakter": "verschwiegen, stolz"
+		},{
+			"id":"9",
+			"art": "Karte",
+			"name": "Mahad",
+			"alter": "333",
+			"kinderfreundlich":"true",
+			"charakter":"lieb, aufrichtig"
+		},{
+			"id":"10",
+			"art": "Karte",
+			"name": "Mana",
+			"alter": "15",
+			"kinderfreundlich":"true",
+			"charakter": "zickig, fleisig"
+		}
+	]
+}
